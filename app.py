@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
+
 
 # Load saved model
-model = pickle.load(open("xgb_model.pkl", "rb"))
+model = joblib.load("xgb_model.joblib")
 
 # Streamlit app
 st.title("Video Game Global Sales Predictor")
