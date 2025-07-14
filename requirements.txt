@@ -1,5 +1,7 @@
-pandas
-numpy
+streamlit
 scikit-learn
 xgboost
-streamlit
+pandas
+numpy
+matplotlib
+seaborn
